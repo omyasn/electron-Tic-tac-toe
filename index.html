@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello Dinny</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+    <link href="index.css" rel="stylesheet">
+
+  </head>
+  <body>
+  <div class="container-fluid" id="field">
+    <div class="row">
+      <div class="cell col-xs-4" id="c0"><span> </span>
+      </div>
+      <div class="cell col-xs-4" id="c1"><span> </span>
+      </div>
+      <div class="cell col-xs-4" id="c2"><span> </span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="cell col-xs-4" id="c3"><span> </span>
+      </div>
+      <div class="cell col-xs-4" id="c4"><span> </span>
+      </div>
+      <div class="cell col-xs-4" id="c5"><span> </span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="cell col-xs-4" id="c6"><span> </span>
+      </div>
+      <div class="cell col-xs-4" id="c7"><span> </span>
+      </div>
+      <div class="cell col-xs-4" id="c8"><span> </span>
+      </div>
+    </div>
+  </div><!--field-->
+
+  <div class="text-center" id="chooseSign">
+    <h2>Choose <b>X</b>(1st turn) or <b>O</b>(2nd turn)</h2>
+    <button class="btn btn-lg" id="btn-x">X</button>
+    <button class="btn btn-lg" id="btn-o">O</button>
+  </div>
+
+  <button class="btn btn-lg" id="btn-reset">RESET</button>
+
+  <div id="modalMsg"><!--всплывающие окно-->
+    <span id="closeMsg">x</span>
+    <p id="textMsg">YOU</p>
+  </div>
+  <div id="overlay"></div><!-- Пoдлoжкa -->
+
+  </body>
+</html>
